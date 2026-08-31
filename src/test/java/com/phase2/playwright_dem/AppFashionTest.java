@@ -84,7 +84,7 @@ public class AppFashionTest {
 		//frames 
 		page.navigate("https://demo.automationtesting.in/Frames.html");
 		FrameLocator framepage= page.frameLocator("#singleframe");
-		framepage.locator("input[type='text']").fill("Chethan M");
+		framepage.locator("input[type='text']").fill("I am Chethan M");
 		page.waitForTimeout(2000);
 		
 	}
