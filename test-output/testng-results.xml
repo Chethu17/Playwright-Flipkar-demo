@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-30T17:59:35 IST" name="Default suite" finished-at="2026-08-30T18:00:18 IST" duration-ms="42807">
+  <suite started-at="2026-09-04T14:49:59 IST" name="Default suite" finished-at="2026-09-04T14:50:07 IST" duration-ms="8081">
     <groups>
     </groups>
-    <test started-at="2026-08-30T17:59:35 IST" name="Default test" finished-at="2026-08-30T18:00:18 IST" duration-ms="42807">
-      <class name="com.phase2.playwright_dem.AppFashionTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phase2.playwright_dem.AppFashionTest@4f209819]" started-at="2026-08-30T17:59:35 IST" name="setup" finished-at="2026-08-30T17:59:52 IST" duration-ms="16846" status="PASS">
+    <test started-at="2026-09-04T14:49:59 IST" name="Default test" finished-at="2026-09-04T14:50:07 IST" duration-ms="8081">
+      <class name="com.phase2.playwright_dem.apiTest">
+        <test-method signature="verifyApi()[pri:0, instance:com.phase2.playwright_dem.apiTest@50b472aa]" started-at="2026-09-04T14:49:59 IST" name="verifyApi" finished-at="2026-09-04T14:50:07 IST" duration-ms="8009" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify()[pri:0, instance:com.phase2.playwright_dem.AppFashionTest@4f209819]" started-at="2026-08-30T17:59:52 IST" name="Verify" finished-at="2026-08-30T18:00:18 IST" duration-ms="25821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify -->
-      </class> <!-- com.phase2.playwright_dem.AppFashionTest -->
+        </test-method> <!-- verifyApi -->
+      </class> <!-- com.phase2.playwright_dem.apiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
